@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "abeda90-moearch_jd375"
+name = "abeda90-storage_io_compute_overlap_segmenter"
 version = "0.1.0"
 description = "把输入按语义边界切成独立单元，逐单元核对MoE 模型架构师·存储 IO 与计算的重叠相关的特征并标出命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://abeda90.github.io"
-Repository = "https://github.com/abeda90/moearch_jd375"
-Issues = "https://github.com/abeda90/moearch_jd375/issues"
+Repository = "https://github.com/abeda90/storage_io_compute_overlap_segmenter"
+Issues = "https://github.com/abeda90/storage_io_compute_overlap_segmenter/issues"
 
 [project.scripts]
-moearch_jd375 = "moearch_jd375:main"
+storage_io_compute_overlap_segmenter = "storage_io_compute_overlap_segmenter:main"
 
 [tool.setuptools]
-py-modules = ["moearch_jd375"]
+py-modules = ["storage_io_compute_overlap_segmenter"]
